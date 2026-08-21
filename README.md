@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the [Homebrew](https://brew.sh/) repository containing the formulae to install the [dbLinter](https://grisselbav.github.io/dbLinter/) CLI.
+This is the [Homebrew](https://brew.sh/) repository containing the formulae to install the [dbLinter](https://grisselbav.github.io/dbLinter/) command-line tool.
 
 ## Installation
 
