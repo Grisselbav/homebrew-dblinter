@@ -5,6 +5,11 @@ class Dblinter < Formula
   sha256 "33be44832b6100babab273bb51572c0c12d35c505072752ff12f579cf3851f79"
   version "1.9.0"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   def install
     libexec.install Dir["*"]
     (bin/"dblinter").write_env_script libexec/"dblinter", {}
