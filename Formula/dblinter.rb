@@ -11,6 +11,6 @@ class Dblinter < Formula
   end
 
   test do
-    system "#{bin}/dblinter"
+    assert_match version.to_s, shell_output("#{bin}/dblinter version")
   end
 end
