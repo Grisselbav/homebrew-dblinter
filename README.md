@@ -1,18 +1,19 @@
-# Grisselbav Dblinter
+# dbLinter CLI
 
-## How do I install these formulae?
+## Introduction
 
-`brew install grisselbav/dblinter/<formula>`
+This is the [Homebrew](https://brew.sh/) repository containing the formulae to install the [dbLinter](https://grisselbav.github.io/dbLinter/) CLI.
 
-Or `brew tap grisselbav/dblinter` and then `brew install <formula>`.
+## Installation
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "grisselbav/dblinter"
-brew "<formula>"
+```bash
+brew install grisselbav/dblinter/dblinter
 ```
 
-## Documentation
+This is equivalent to running `brew tap grisselbav/dblinter` followed by `brew install dblinter`.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Update
+
+```bash
+brew update && brew upgrade dblinter
+```
