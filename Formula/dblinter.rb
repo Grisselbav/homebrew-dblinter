@@ -1,8 +1,8 @@
 class Dblinter < Formula
   desc "Code analysis and SQL-based testing for APEXlang, PL/SQL, PL/pgSQL and SQL"
   homepage "https://grisselbav.github.io/dbLinter/"
-  url "https://github.com/Grisselbav/dbLinter/releases/download/v1.9.0/dblinter-1.9.0.zip"
-  sha256 "33be44832b6100babab273bb51572c0c12d35c505072752ff12f579cf3851f79"
+  url "https://github.com/Grisselbav/dbLinter/releases/download/v1.10.0/dblinter-1.10.0.zip"
+  sha256 "1debd3957b9fe1c53238fdfe3be61c030a1fcb975fbc233ba3f55f4b32cf8995"
 
   livecheck do
     url :stable
