@@ -9,6 +9,12 @@ class Dblinter < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/Grisselbav/homebrew-dblinter/releases/download/dblinter-1.11.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "2422f7db1c13e2edffff94bff38d9dfe86703552fabc6da724608117564b8e7d"
+  end
+
   def install
     libexec.install Dir["*"]
     (bin/"dblinter").write_env_script libexec/"dblinter", {}
