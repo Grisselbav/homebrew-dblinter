@@ -10,8 +10,8 @@ class Dblinter < Formula
   end
 
   bottle do
-    root_url "https://github.com/Grisselbav/homebrew-dblinter/releases/download/dblinter-1.12.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "8fbe75bca0108f2fc11bc7de9764aad47f9119c89b3afcef5c2eda15d59a0b8a"
+    root_url "https://github.com/Grisselbav/homebrew-dblinter/releases/download/dblinter-1.13.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "470d58e21a7fb9e371fcc37f381606b16c3a9d457588ef042c021b0c46c86a87"
   end
 
   def install
